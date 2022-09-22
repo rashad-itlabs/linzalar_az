@@ -1,0 +1,84 @@
+.detail{
+	display: none;
+	padding:5px;
+}
+.detail span{
+	display: block;
+}
+#a_link {
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    color:#555;
+    text-decoration: none;
+}
+#a_link:nth-child(1):hover#a_link i{
+	color:#0dec25;
+	text-shadow: 0 0 5px #0dec25;
+}
+
+#a_link:nth-child(2):hover#a_link i{
+	color:red;
+	text-shadow: 0 0 5px red;
+}
+#open p {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+#badge{
+	display: none
+}
+th{
+	font-size: 13px;
+}
+.card-header span{
+	float: right;
+}
+.inptbtn{
+	width: 50px;
+}
+
+.inptbtn {
+    width: 40px;
+    border: 1px solid 
+#ddd;
+background:
+    #fff;
+    margin-bottom: 2px;
+}
+
+option:disabled{
+	background: #444;
+	color:#fff;
+}
+.bosluq{
+	height: 50px;
+}
+#admintable{
+	font-size: 12px;
+}
+.position{
+	position:sticky;
+	top:0;
+	height: 100vh;
+	background: #212529;
+}
+
+.table.arxivTable td {
+    padding: 3px;
+}
+
+.table.arxivTable th{
+    border:none;
+    background: #999;
+    color:#fff;
+}
+
+
+@media screen and (max-width: 1000px){
+	.position{
+		position: relative;
+	}
+
+}
